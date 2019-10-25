@@ -1,0 +1,26 @@
+{
+	"nodes":
+		[
+			{"id": 0,
+				"name": "Entity2",
+					"content": "Hey look! A dialogue box!",
+						"next_id": 1},
+			{"id": 1,
+				"name": "Entity2",
+					"content": "If you want to know more about how this works you should speak to the entity on the left.",
+						"next_id": 2},
+			{"id": 2,
+				"name": "Entity2",
+					"content": "Eventually I'll be able to tell if you have and change my dialogue to suit it.",
+						"next_id": 3},
+			{"id": 3,
+				"name": "Entity2",
+					"content": "But I guess untill that gets implmented you'll have to do with me telling you to go speak to them.",
+						"next_id": 4},
+			{"id": 4,
+				"name": "Entity2",
+					"content": "Seriously, I have nothing else to say. Go speak to them.",
+						"next_id": -1}
+		]
+		
+}
