@@ -1,0 +1,31 @@
+{
+	"nodes":
+		[
+			{"id": 0,
+				"name": "Entity1",
+					"content": "Hey look! A dialogue box!",
+						"next_id": 1,
+							"choices": []},
+			{"id": 1,
+				"name": "Entity1",
+					"content": "Feels like it's the future doesn't it. Well if the future was a dull box like this.",
+						"next_id": 2,
+							"choices": []},
+			{"id": 2,
+				"name": "Entity1",
+					"content": "Anyway you should know that each press of the button will advance to the next node, this is done by way of the next_id.",
+						"next_id": 3,
+							"choices": []},
+			{"id": 3,
+				"name": "Entity1",
+					"content": "The next_id is then used to find the next node and the program extracts all of the information based on the give id.",
+						"next_id": 4,
+							"choices": []},
+			{"id": 4,
+				"name": "Entity1",
+					"content": "Using this the program knows that this is the last option because the next_id is set to -1. Thus ending the dialogue, like this.",
+						"next_id": -1,
+							"choices": []}
+		]
+		
+}
